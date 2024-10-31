@@ -161,7 +161,7 @@ class _LoginPageState extends State<LoginPage>
                             controller: _passwordController,
                             validator: (value) {
                               if (value == null || value.isEmpty) {
-                                return 'This field is required';
+                                return 'This field is required.';
                               }
                               return null;
                             },
