@@ -28,7 +28,6 @@ def updateemployee():
             country = data.get('country')
             address = data.get('address')
             pincode = data.get('pincode')
-            print("datas=",data)
 
             # Print data for debugging purposes
             print(f"Name: {name}")
